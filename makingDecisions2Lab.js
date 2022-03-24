@@ -9,7 +9,7 @@ var arr = [10,20,30,40,50,60]
 //Code Here
 
 let firstItem = arr[0]
-// console.log(firstItem)
+console.log(firstItem)
 
 ////////// PROBLEM 2 //////////
 /*
@@ -19,7 +19,7 @@ let firstItem = arr[0]
 //Code Here
 
 let lastItemRemoved = arr.pop()
-// console.log(arr)
+console.log(arr)
 
 ////////// PROBLEM 3 //////////
 
@@ -27,14 +27,14 @@ let lastItemRemoved = arr.pop()
 var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 // Do not edit the code above.
 
-/*
+/*git
   Loop through the 'family' array and console.log every item.
 */
 
 //Code Here
 
 for(i = 0; i < family.length; i++){
-  // console.log(family[i])
+  console.log(family[i])
 }
 
 ////////// PROBLEM 4 //////////
@@ -55,7 +55,7 @@ for(i = 0; i < nums.length; i++){
     evensArr.push(nums[i])
   }
 }
-// console.log(evensArr)
+console.log(evensArr)
 
 ////////// PROBLEM 5 //////////
 
@@ -69,17 +69,17 @@ var score = 65
 
 //Code Here
 
-// if(score >= 90){
-//   console.log("A")
-// }else if(score >= 80 && score <= 89){
-//   console.log("B")
-// }else if(score >= 70 && score <= 79){
-//   console.log("C")
-// }else if(score >= 60 && score <= 69){
-//   console.log("D")
-// }else{
-//   console.log("F")
-// }
+if(score >= 90){
+  console.log("A")
+}else if(score >= 80 && score <= 89){
+  console.log("B")
+}else if(score >= 70 && score <= 79){
+  console.log("C")
+}else if(score >= 60 && score <= 69){
+  console.log("D")
+}else{
+  console.log("F")
+}
 
 
 ////////// Intermediate Problems //////////
@@ -97,7 +97,7 @@ var myFavoriteNumbers = [4,8,12,16,20,24];
 //Code Here
 
 let someNum = myFavoriteNumbers[4]
-// console.log(someNum)
+console.log(someNum)
 
 ////////// PROBLEM 7 //////////
 
@@ -107,10 +107,10 @@ let someNum = myFavoriteNumbers[4]
 //Code Here
 
 if (myFavoriteNumbers.length < 7){
-  // console.log("There are not enough elements in this array")
+  console.log("There are not enough elements in this array")
 }else if(myFavoriteNumbers >= 7){
   myFavoriteNumbers.splice(6, 1, someNum)
-  // console.log(myFavoriteNumbers)
+  console.log(myFavoriteNumbers)
 }
 
 
@@ -126,7 +126,7 @@ var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
 
 for(i = 0; i < listOfNumbers.length; i++){
   if(listOfNumbers[i] % 3 === 0){
-    // console.log(`${listOfNumbers[i]} is divisible by 3`)
+    console.log(`${listOfNumbers[i]} is divisible by 3`)
   }
 }
 
@@ -143,7 +143,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 //Code Here
 
 for(i = letters.length; i >= 0; i--){
-  // console.log(letters[i])
+  console.log(letters[i])
 }
 
 ////////// Advanced Problems //////////
